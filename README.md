@@ -1,1 +1,2 @@
-# btcz.im
+# [BTCZ.im](https://btcz.im)
+
