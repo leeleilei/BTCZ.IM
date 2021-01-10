@@ -29,7 +29,7 @@ jobs:
           if [ -f bin/requirements.txt ]; then pip install -r bin/requirements.txt; fi
 
       - name: update Pocket bookmarks
-          run |
+        run: |
           python3 bin/sync_pocket.py bookmarks/
 
       - name: update index.md
