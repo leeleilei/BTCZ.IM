@@ -11,7 +11,8 @@ import os
 import jiagu
 import jieba.analyse
 import html2text
-
+from datetime import (datetime, timedelta)
+import pytz
 try:
     dest = sys.argv[1]
 except IndexError:
@@ -27,8 +28,7 @@ draft: false
 '''
 
 # 处理时间
-from datetime import (datetime, timedelta)
-import pytz
+
 china_tz = pytz.timezone("Asia/Shanghai")
 today = datetime.now().astimezone(china_tz).isoformat()
 
