@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 
 RE_TITLE = re.compile(r'(?<=<title>).*(?=</title>)')
-META_INVALID_CHARS = re.compile(r'[\[\]\" “”]')
+META_INVALID_CHARS = re.compile(r'[\[\]\"“”]')
 INDEX_PATHS = map(Path, ['about', 'pages', 'posts'])
 BOOKMARKS_PATHS = map(Path, ['bookmarks'])
 TAGS_PATHS = map(Path, ['posts', 'pages', 'about'])
