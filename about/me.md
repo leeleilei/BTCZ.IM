@@ -1,8 +1,12 @@
 ---
-title:  About Myself
+title:  About
 tags: [about]
 draft: false
 ---
+
+# 介绍
+
+关乎Bitcoin和自由
 
 ## Contact
 
